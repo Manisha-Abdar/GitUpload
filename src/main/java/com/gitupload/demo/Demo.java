@@ -1,6 +1,7 @@
 package com.gitupload.demo;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,5 +18,9 @@ public class Demo {
 	@GetMapping("/welcome1")
 	public String getInfo1() {
 		return "Hey Friends1...!";
+	}
+	@GetMapping("/welcome2")
+	public String getInfo2() {
+		return "Hello World";
 	}
 }
