@@ -13,4 +13,9 @@ public class Demo {
 	public String getInfo() {
 		return "Hey Friends...!";
 	}
+	
+	@GetMapping("/welcome1")
+	public String getInfo1() {
+		return "Hey Friends1...!";
+	}
 }
